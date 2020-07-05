@@ -17,7 +17,7 @@ var commentRoutes = require("./routes/comments"),
 	indexRoutes = require("./routes/index");
 
 //seedDB();
-mongoose.connect("mongodb+srv://GabeNedden:8qSg9kLrnXZc0VQ1@gabycluster-fhlnf.azure.mongodb.net/test?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://GabeNedden:[passwordWithheld]@gabycluster-fhlnf.azure.mongodb.net/test?retryWrites=true&w=majority", {
 	useNewUrlParser: true,
 	useFindAndModify: false,
 	useCreateIndex: true,
